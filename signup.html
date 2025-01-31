@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+</head>
+<body>
+    <header><center><h1>Create an Account! </h1></center></header>
+    <br><br>
+    <main>
+        <center>
+            <p>Join us today! Fill in the details below to get started.</p>
+            <br><br>
+            <form action="getinfo">
+                <label for="name">Full neme</label>
+                <input type="text"  id="name" placeholder="Enter your full name" required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email"  id="email" placeholder="Enter your Email" required>
+                <br><br>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create a strong password">
+                <br><br>
+
+                <label for="confirmPass">Confirm Password</label>
+                <input type="password" id="confirmPass" placeholder="Re-enter password">
+                <br><br>
+                
+                <label>Gender: </label>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" value="Female" id="Female">
+                <label for="Female">Female</label>
+                <br><br>
+
+                <label for="dob">Date of Birth: </label>
+                <input type="date" id="dob" required>
+                <br><br>
+
+                <input type="checkbox" name="checkbox" id="agree">
+                <label for="agree">I agree to the <a href="#">Term & Conditiom</a></label>
+                <br><br>
+
+                <button type="submit">Singup</button>
+                <br><br>
+
+                <p>Already have an account? <a href="index.html">Login Here</a></p>
+            </form>
+        </center>
+    </main>
+</body>
+</html>
